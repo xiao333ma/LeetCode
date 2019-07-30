@@ -2,28 +2,31 @@ package main
 
 
   //Definition for a binary tree node.
-  type TreeNode struct {
-      Val int
-      Left *TreeNode
-      Right *TreeNode
-  }
-
+  //type TreeNodee struct {
+  //    Val int
+  //    Left *TreeNode
+  //    Right *TreeNode
+  //}
 func increasingBST(root *TreeNode) *TreeNode {
 	inOrder(root)
-
-	tree := new(TreeNode)
-
-	for _, value := range array {
-
-	}
+	return result
 }
 
-var array = make([]int, 0);
+var result *TreeNode
+var last *TreeNode
 
 func inOrder(root *TreeNode) {
 	if root != nil {
 		inOrder(root.Left)
-		array = append(array, root.Val)
+		temp := TreeNode{Val:root.Val}
+		if last != nil {
+			last.Right = &temp
+			last = &temp
+		} else  {
+			result = &temp
+			last = &temp
+		}
+
 		inOrder(root.Right)
 	}
 }

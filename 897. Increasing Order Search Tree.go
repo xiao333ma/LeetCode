@@ -9,24 +9,19 @@ package main
   //}
 func increasingBST(root *TreeNode) *TreeNode {
 	inOrder(root)
-	return result
+	return result.Right
 }
 
-var result *TreeNode
-var last *TreeNode
+var result *TreeNode = &TreeNode{}
+var last *TreeNode = result
 
 func inOrder(root *TreeNode) {
 	if root != nil {
 		inOrder(root.Left)
-		temp := TreeNode{Val:root.Val}
-		if last != nil {
-			last.Right = &temp
-			last = &temp
-		} else  {
-			result = &temp
-			last = &temp
-		}
-
+		temp := root
+		temp.Left = nil
+		last.Right = temp
+		last = temp
 		inOrder(root.Right)
 	}
 }

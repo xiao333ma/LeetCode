@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878797f4-2e6a-4223-ac1d-725c6cdb9598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/LeetCode.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/LeetCode.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/LeetCode.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/LeetCode.xcodeproj/project.xcworkspace/xcuserdata/xiaoma.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/LeetCode.xcodeproj/xcuserdata/xiaoma.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/LeetCode/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/908. Smallest Range I.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/897. Increasing Order Search Tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/897. Increasing Order Search Tree.go" afterDir="false" />
     </list>
@@ -20,19 +15,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1002. Find Common Characters.go">
+        <entry file="file://$PROJECT_DIR$/CombinationSum.swift">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/908. Smallest Range I.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="324">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/897. Increasing Order Search Tree.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/math/dim.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="459">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -46,6 +49,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>*</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.5/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +63,7 @@
       <list>
         <option value="$PROJECT_DIR$/1002. Find Common Characters.go" />
         <option value="$PROJECT_DIR$/897. Increasing Order Search Tree.go" />
+        <option value="$PROJECT_DIR$/908. Smallest Range I.go" />
       </list>
     </option>
   </component>
@@ -64,7 +73,9 @@
     <option name="width" value="964" />
     <option name="height" value="585" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -107,12 +118,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 897. Increasing Order Search Tree.go">
+  <component name="RunManager" selected="Go Build.go build 908. Smallest Range I.go">
     <configuration name="go build 897. Increasing Order Search Tree.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/897. Increasing Order Search Tree.go" />
+      <package value="LeetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 908. Smallest Range I.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/908. Smallest Range I.go" />
       <package value="LeetCode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -130,9 +150,11 @@
     <list>
       <item itemvalue="Go Build.go build LeetCode 1002. Find Common Characters.go" />
       <item itemvalue="Go Build.go build 897. Increasing Order Search Tree.go" />
+      <item itemvalue="Go Build.go build 908. Smallest Range I.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 908. Smallest Range I.go" />
         <item itemvalue="Go Build.go build 897. Increasing Order Search Tree.go" />
       </list>
     </recent_temporary>
@@ -146,15 +168,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32979318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38065958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979318" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38065958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.04379562" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29066518" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -178,13 +200,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/builtin/builtin.go" />
-    <entry file="file://$PROJECT_DIR$/1002. Find Common Characters.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/700. Search in a Binary Search Tree.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-302" />
@@ -199,8 +214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/897. Increasing Order Search Tree.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="702">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -208,6 +223,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1002. Find Common Characters.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CombinationSum.swift">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/math/dim.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/908. Smallest Range I.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

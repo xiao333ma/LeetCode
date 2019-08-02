@@ -18,7 +18,7 @@ var last *TreeNode = result
 func inOrder(root *TreeNode) {
 	if root != nil {
 		inOrder(root.Left)
-		temp := root
+		temp := &TreeNode{Val:root.Val}
 		temp.Left = nil
 		last.Right = temp
 		last = temp

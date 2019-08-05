@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878797f4-2e6a-4223-ac1d-725c6cdb9598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/811. Subdomain Visit Count.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/557. Reverse Words in a String III.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,48 +12,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/897. Increasing Order Search Tree.go">
+        <entry file="file://$PROJECT_DIR$/908. Smallest Range I.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/876. Middle of the Linked List.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="459">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/811. Subdomain Visit Count.go">
+        <entry file="file://$PROJECT_DIR$/557. Reverse Words in a String III.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="297">
+              <caret line="11" selection-start-line="11" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/strconv/atoi.go">
+        <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/math/dim.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/617. Merge Two Binary Trees.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -72,7 +60,7 @@
       <find>*</find>
     </findStrings>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.7/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.5/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -84,6 +72,7 @@
         <option value="$PROJECT_DIR$/908. Smallest Range I.go" />
         <option value="$PROJECT_DIR$/876. Middle of the Linked List.go" />
         <option value="$PROJECT_DIR$/811. Subdomain Visit Count.go" />
+        <option value="$PROJECT_DIR$/557. Reverse Words in a String III.go" />
       </list>
     </option>
   </component>
@@ -101,7 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,7 +129,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 811. Subdomain Visit Count.go">
+  <component name="RunManager" selected="Go Build.go build 557. Reverse Words in a String III.go">
+    <configuration name="go build 557. Reverse Words in a String III.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/557. Reverse Words in a String III.go" />
+      <package value="LeetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 811. Subdomain Visit Count.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -191,9 +189,11 @@
       <item itemvalue="Go Build.go build 908. Smallest Range I.go" />
       <item itemvalue="Go Build.go build 876. Middle of the Linked List.go" />
       <item itemvalue="Go Build.go build 811. Subdomain Visit Count.go" />
+      <item itemvalue="Go Build.go build 557. Reverse Words in a String III.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 557. Reverse Words in a String III.go" />
         <item itemvalue="Go Build.go build 811. Subdomain Visit Count.go" />
         <item itemvalue="Go Build.go build 876. Middle of the Linked List.go" />
         <item itemvalue="Go Build.go build 908. Smallest Range I.go" />
@@ -202,16 +202,16 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="1440" y="-468" width="1080" height="1897" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24071082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34160584" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51532847" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34153157" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34656233" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -261,27 +261,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CombinationSum.swift">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/math/dim.go" />
-    <entry file="file://$PROJECT_DIR$/908. Smallest Range I.go">
+    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/math/dim.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/strings/strings.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="307" column="5" selection-start-line="307" selection-start-column="5" selection-end-line="307" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/strings/strings.go" />
     <entry file="file://$PROJECT_DIR$/617. Merge Two Binary Trees.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -289,20 +276,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/strconv/atoi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="201" column="5" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/builtin/builtin.go" />
+    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/strconv/atoi.go" />
     <entry file="file://$PROJECT_DIR$/897. Increasing Order Search Tree.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -321,6 +296,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CombinationSum.swift">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/908. Smallest Range I.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/557. Reverse Words in a String III.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

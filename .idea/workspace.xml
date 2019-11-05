@@ -159,8 +159,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/463. Island Perimeter.go</url>
-          <line>30</line>
-          <option name="timeStamp" value="21" />
+          <line>25</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

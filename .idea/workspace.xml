@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878797f4-2e6a-4223-ac1d-725c6cdb9598" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/463. Island Perimeter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1022. Sum of Root To Leaf Binary Numbers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/617. Merge Two Binary Trees.go" beforeDir="false" afterPath="$PROJECT_DIR$/617. Merge Two Binary Trees.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 463. Island Perimeter.go">
+  <component name="RunManager" selected="Go Build.go build 1022. Sum of Root To Leaf Binary Numbers.go">
+    <configuration name="go build 1022. Sum of Root To Leaf Binary Numbers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/1022. Sum of Root To Leaf Binary Numbers.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 463. Island Perimeter.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -82,15 +91,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 897. Increasing Order Search Tree.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/897. Increasing Order Search Tree.go" />
-      <package value="LeetCode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build 908. Smallest Range I.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -112,19 +112,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build LeetCode 1002. Find Common Characters.go" />
-      <item itemvalue="Go Build.go build 897. Increasing Order Search Tree.go" />
       <item itemvalue="Go Build.go build 908. Smallest Range I.go" />
       <item itemvalue="Go Build.go build 876. Middle of the Linked List.go" />
       <item itemvalue="Go Build.go build 811. Subdomain Visit Count.go" />
       <item itemvalue="Go Build.go build 463. Island Perimeter.go" />
+      <item itemvalue="Go Build.go build 1022. Sum of Root To Leaf Binary Numbers.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 1022. Sum of Root To Leaf Binary Numbers.go" />
         <item itemvalue="Go Build.go build 463. Island Perimeter.go" />
         <item itemvalue="Go Build.go build 811. Subdomain Visit Count.go" />
         <item itemvalue="Go Build.go build 876. Middle of the Linked List.go" />
         <item itemvalue="Go Build.go build 908. Smallest Range I.go" />
-        <item itemvalue="Go Build.go build 897. Increasing Order Search Tree.go" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,17 @@
           <line>25</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/1022. Sum of Root To Leaf Binary Numbers.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="sum" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

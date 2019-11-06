@@ -33,11 +33,11 @@ Note: The merging process must start from the root nodes of both trees.
 * Definition for a binary tree node.
 */
 
-type TreeNode struct {
-	     Val int
-	     Left *TreeNode
-	     Right *TreeNode
-}
+//type TreeNode struct {
+//Val int
+//Left *TreeNode
+//Right *TreeNode
+//}
 
 func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
 	if t1 == nil {

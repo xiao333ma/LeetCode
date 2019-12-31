@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1A7CF2023BA0D2900F0E35E /* 1108. Defanging an IP Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7CF1F23BA0D2900F0E35E /* 1108. Defanging an IP Address.swift */; };
 		D1E8D1C822F18DD300E53809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E8D1C722F18DD300E53809 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D1A7CF1F23BA0D2900F0E35E /* 1108. Defanging an IP Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1108. Defanging an IP Address.swift"; sourceTree = "<group>"; };
 		D1E8D1C422F18DD300E53809 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E8D1C722F18DD300E53809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1A7CF1E23BA0D1100F0E35E /* String */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7CF1F23BA0D2900F0E35E /* 1108. Defanging an IP Address.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		D1E8D1BB22F18DD300E53809 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		D1E8D1C622F18DD300E53809 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				D1A7CF1E23BA0D1100F0E35E /* String */,
 				D1E8D1C722F18DD300E53809 /* main.m */,
 			);
 			path = LeetCode;
@@ -93,6 +104,7 @@
 				TargetAttributes = {
 					D1E8D1C322F18DD300E53809 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -119,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E8D1C822F18DD300E53809 /* main.m in Sources */,
+				D1A7CF2023BA0D2900F0E35E /* 1108. Defanging an IP Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,16 +252,31 @@
 		D1E8D1CC22F18DD300E53809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		D1E8D1CD22F18DD300E53809 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
